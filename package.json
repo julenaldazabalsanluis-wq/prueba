@@ -1,60 +1,19 @@
 {
-      "name": "mi-web",
-      "private": true,
-      "version": "0.0.0",
-      "type": "module",
-      "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-      },
-      "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-      },
-      "devDependencies": {
-        "@types/react": "^18.2.0",
-        "@types/react-dom": "^18.2.0",
-        "@vitejs/plugin-react": "^4.0.0",
-        "vite": "^4.4.0"
-      }
-    }
-    ```
-
-3.  **`src/main.jsx`**: (Crea una carpeta llamada `src` y dentro pon este archivo que conecta tu código)
-    
-```jsx
-    import React from 'react'
-    import ReactDOM from 'react-dom/client'
-    import App from './App.jsx'
-
-    ReactDOM.createRoot(document.getElementById('root')).render(
-      <React.StrictMode>
-        <App/>
-      </React.StrictMode>,
-    )
-    ```
-
-4.  **`src/App.jsx`**: **Aquí es donde pegas todo el código que te dio Claude.**
-
----
-
-### Paso 2: Subir a GitHub (Sin usar comandos)
-Si no quieres usar la consola (terminal), haz esto:
-1. Ve a tu repositorio en la web de GitHub.
-2. Haz clic en **"uploading an existing file"** (arriba, cerca del botón verde de Code).
-3. Arrastra los archivos (`index.html`, `package.json` y la carpeta `src` con tus archivos adentro).
-4. Dale al botón verde de **"Commit changes"**.
-
----
-
-### Paso 3: Lanzar la web (El momento mágico)
-Ahora que GitHub tiene tu código:
-1. Ve a **[Vercel.com](https://vercel.com/)** y regístrate con tu cuenta de GitHub.
-2. Haz clic en **"Add New"** > **"Project"**.
-3. Verás una lista de tus repositorios de GitHub. Dale a **"Import"** al que acabas de crear.
-4. No toques nada de la configuración, dale directamente al botón **"Deploy"**.
-
-**¡Listo!** En unos 30 segundos te dará una URL (ejemplo: `mi-proyecto.vercel.app`) y tu web ya será funcional para todo el mundo.
-
-¿Te has quedado trabado en algún archivo o en la subida a GitHub?
+  "name": "mi-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  }
+}
